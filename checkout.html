@@ -12,6 +12,13 @@
         <p>Checkout Form</p>
     </header>
 <main>
+    <nav>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="about.html">About Us</a></li>
+            <li> <a href="checkout.html">Checkout</a></li>
+        </ul>
+    </nav>
     <section>
         <h3>Please enter the following information to checkout :</h3>
     <form action="http:/foo.com" method="put">
@@ -23,10 +30,11 @@
         <input type="text" name="email" id="email" required placeholder="johndoe@example.com"> 
         <br>
 
-        <label for="gender">Gender :</label>
-        <input type="radio" id="gender" name="gender" value="male">Male
-        <input type="radio" id="gender" name="gender" value="female">Female
-        <input type="radio" id="gender" name="gender" value="other" checked>Other<br>
+        <label for="gender">How was your experience with the website :</label>
+        <input type="radio" id="gender" name="gender" value="very good"> very good
+        <input type="radio" id="gender" name="gender" value="good">good
+        <input type="radio" id="gender" name="gender" value="average">average
+        <input type="radio" id="gender" name="gender" value="bad" checked>bad<br>
     </form>
 
     </section>
