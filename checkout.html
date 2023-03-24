@@ -9,8 +9,12 @@
 </head>
 <body>
     <header>
-        <p>Checkout Form</p>
+        <!--inline styling for logo image-->
+        <img style="float:left; margin-right: 10px;" src="images/shopping.jpg" alt="logo" width="110">
+        <h1>Checkout Page</h1>
+
     </header>
+  
 <main>
     <nav>
         <ul>
@@ -35,6 +39,15 @@
         <input type="radio" id="gender" name="gender" value="good">good
         <input type="radio" id="gender" name="gender" value="average">average
         <input type="radio" id="gender" name="gender" value="bad" checked>bad<br>
+
+        <label for="address_one">Address Line 1:<span class="required">*</span></label>
+        <input type="text" name="address_one" id="address_one" autofocus required> <br>
+        <label for="address_two">Address Line 2:<span class="required">*</span></label>
+        <input type="text" name="address_two" id="address_two" autofocus required> <br>
+        <label for="address_three">Address Line 3:<span class="required"></span></label>
+        <input type="text" name="address_three" id="address_three" autofocus required> <br>
+        <label for="address_county">County:<span class="required">*</span></label>
+        <input type="text" name="address_county" id="address_county" autofocus required> <br>
     </form>
 
     </section>
