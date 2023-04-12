@@ -1,5 +1,5 @@
 nav{
-    background-color: pink;
+    background-color: hotpink;
     padding: 5px;
 }
 nav ul{
@@ -14,7 +14,7 @@ nav ul li{
     margin: 5px;
     border: 2px;
     border-style: solid;
-    border-color:pink;
+    border-color:hotpink;
     border-radius: 10px;
 }
 nav ul li a{
@@ -23,7 +23,7 @@ nav ul li a{
 }
 nav ul li:hover
 {
-    background-color: pink;
+    background-color: hotpink;
 }
 nav ul li a:active {
     background-color: black;
@@ -36,14 +36,14 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color:pink;
+    background-color:hotpink;
     text-align: center;
     color: white;
 }
 header{
     background-color: #000000;
     padding: 10px;
-    color:pink;
+    color:hotpink;
 }
 body{
     font-family:verdana ;
@@ -57,7 +57,7 @@ h2{
 }
 table{
     width: 100%;
-    border: 1px, solid, pink;
+    border: 1px, solid, hotpink;
     border-collapse: collapse;
     font-size: 20px;
     margin: 20px;
