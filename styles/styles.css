@@ -71,4 +71,13 @@ th, tr, td{
 main{
     min-height: 200vh;
 }
+div{
+    float: left;
+    padding: 15px;
+}
+article{
+    text-align: justify;
+    
+}
+
 
