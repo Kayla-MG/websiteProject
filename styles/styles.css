@@ -79,6 +79,26 @@ article{
     text-align: justify;
     
 }
+/*This makes my astrics red and bold */
+.required{
+    font-weight: bold;
+    color: red;
+}
+/*this edits my checkout forum and its inputs*/
+input{
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+/*this edits my checkout forum and its inputs*/
+input[type="radio"] {width: 10px;}
+input[type="checkbox"] {width: 15px;}
 
 
 
+#button, #reset{
+    margin-top: .5em;
+    width: 8em;
+    background-color: hotpink;
+    border: 3px solid white;
+}

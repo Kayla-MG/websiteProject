@@ -5,10 +5,26 @@
     <meta name="description" content="clothing, shoes, shopping and style website">
     <meta name="keywords" content="new in, dunks, cargos, beige, black, barbie, panda, new, dropping, fashion">
     <meta name="author" content="Kayla McGowan">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
     <title>Kaylas Klothes</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
 
     <link rel="icon" href="images/favicon.ico">
+    <style>
+        .flexbox{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style-type: style none; 
+            background-color: white;
+            padding: 20px;      
+            flex-direction: row;
+        }
+        .flexbox li{
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+    </style>
 </head>
 
 
@@ -22,7 +38,7 @@
     <br/>
     <main>
         <nav>
-            <ul>
+            <ul class="flexbox">
                 <li> <a href="index.html">Home</a></li>
                 <li> <a href="about.html">About</a></li>
                 <li> <a href="checkout.html">Checkout</a></li>

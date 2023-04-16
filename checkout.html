@@ -5,10 +5,27 @@
     <meta name="description" content="clothing, shoes, shopping and style website">
     <meta name="keywords" content="clothing, shoes, name, address, email, style, checkout, shopping">
     <meta name="author" content="Kayla McGowan">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
     <title>Kaylas Klothes</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
 
     <link rel="icon" href="images/favicon.ico">
+
+    <style>
+       .flexbox{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style-type: style none; 
+            background-color: white;
+            padding: 20px;      
+            flex-direction: row;
+        }
+        .flexbox li{
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -20,7 +37,7 @@
   
 <main>
     <nav>
-        <ul>
+        <ul class="flexbox">
             <li> <a href="index.html">Home</a></li>
             <li> <a href="about.html">About</a></li>
             <li> <a href="checkout.html">Checkout</a></li>
@@ -30,7 +47,7 @@
     </nav>
     <section>
         <h3>Please enter the following information to checkout :</h3>
-    <form action="http:/foo.com" method="put">
+    <form action="http:/foo.com" method="get">
         <label for="first_name">First name:<span class="required">*</span></label>
         <input type="text" name="first_name" id="first_name" autofocus required> <br>
         <label for="last_name">Last name:<span class="required">*</span></label>
@@ -53,7 +70,11 @@
         <input type="text" name="address_three" id="address_three" autofocus required> <br>
         <label for="address_county">County:<span class="required">*</span></label>
         <input type="text" name="address_county" id="address_county" autofocus required> <br>
+
+        <input type="submit" name="submit" id="button" value="Submit">
+        <input type="reset" name="reset" id="reset">
     </form>
+    <p style="margin-left: 1380px;"> <span class="required">*</span> <em>Indicates a required field</em> </p>
 
     </section>
     <!--Get google map working-->
